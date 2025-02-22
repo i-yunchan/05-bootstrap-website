@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+
+        header{
+            background-image:url("image/37962592786_5c46d432b4_o.jpg");
+            background-size: cover;
+        }
+    </style>
+  </head>
+  <body>
+    
+    <header class="container-fluid text-center vh-100 d-flex flex-column justify-content-center text-white">
+
+        <h1>My First BootStrap Website</h1>
+        <p>Photos from a trip</p>
+
+    </header>
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-12 col-sm-10 col-md-8 col-lg-6">
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id, distinctio labore corporis vitae fugiat nam iusto veniam nihil molestias omnis illo vero quae sunt voluptatum. Iste perspiciatis qui omnis voluptatem?</p>
+               <figure class="figure w-75 d-block mx-auto">
+               <img src="image/japan-vending-machine.jpg" class="img-fluid" alt="two japanese vending machines"> 
+               <figcaption class="figcaption">This photo is taken in Hokkaido, Japan.</figcaption>     
+            </figure>
+
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia temporibus, velit reprehenderit quo nesciunt, illo quae nisi minus ipsum qui reiciendis consequuntur, aperiam illum necessitatibus eius doloremque eveniet. Aspernatur, libero?</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis totam, ad minus repellendus placeat, labore aliquid natus modi aut nihil, dignissimos dolor. Dolores qui corrupti assumenda impedit non aliquam velit.</p>
+                
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="image/japan 01.jpg" class="d-block w-100" alt="a japanese temple in the mountain">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="image/japan 02.jpg" class="d-block w-100" alt="japanese street">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="image/japan 03.jpg" class="d-block w-100" alt="a group of japanese middle school students standing in front of a store">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius reprehenderit quibusdam fugit tenetur nobis rerum explicabo voluptate recusandae velit corporis ducimus natus ipsum quas magni a similique obcaecati, ratione quidem!</p>
+                
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+    Watch a music video
+                </button>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque explicabo, ex, atque quisquam accusantium ab, velit tenetur dolorum saepe sapiente quasi officiis architecto eos. Sed suscipit nisi molestias molestiae rerum!</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores hic expedita quibusdam, temporibus iure dolore quam earum voluptas itaque. Maxime debitis a eos excepturi iusto mollitia voluptatem magnam consectetur delectus.</p>
+                <p><a  data-bs-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                    Click to a surprise cute photo!
+                </a>
+                </p>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                        <img src="image/cat photo.jpg" class="img-fluid" alt="a black and white cat photo">
+                    </div>
+                  </div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae eaque adipisci, officiis maiores, voluptatum obcaecati natus, libero porro odio ipsam sapiente fugit soluta! Assumenda enim placeat nihil, animi quia facilis!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur deleniti quasi optio accusamus autem tempore obcaecati expedita, saepe aliquam ad eligendi esse, porro beatae, animi quisquam? Voluptatem amet repudiandae nesciunt.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi tenetur corporis sunt saepe maxime mollitia consequuntur ea, obcaecati laudantium minus quis laborum cumque accusantium eaque vel numquam! Cum, repellat magni!</p>
+            </div>
+
+        </div>
+    </div><!--closed.container-->
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-6 ">
+                <img src="image/Taipei street.jpg" class="img-fluid">
+        </div>
+        <div class="col-6 ">
+            <img src="image/Taipei street night.jpg" class="img-fluid">
+    </div>
+    </div>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis vero voluptatibus molestias saepe corporis quas odit doloribus tempora, sint minima! Perspiciatis optio eveniet velit perferendis tempora blanditiis nostrum, sapiente explicabo!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit explicabo error tempora? Perferendis officiis consequuntur libero rerum voluptatem saepe voluptate similique vel magni, corporis, commodi totam, nam non cum minima!</p>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-dialog modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">台北流浪指南</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <div class="ratio ratio-16x9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-bi2_5SnIBw?si=Un0ucBx1Gr26lu5u" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+    <script src="js/bootstrap.bundle.js"></script>
+  </body>
+</html>
